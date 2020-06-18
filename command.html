@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stutern Weekly Challenge</title>
+</head>
+<body>
+    <h1>My Favourite Git Command</h1>
+    <h4>by Ayodeji Olatunji</h4><hr>
+    <p>I'll be taking you on a brief summary about my favourite Git Command </p>
+    <h3>GIT PUSH</h3>
+    <p> The <b>Git Push</b> command is used to upload local repository content to a remote repository. 
+        Pushing is how you transfer commits from your local repository to a remote repo.it's the the counterpart to git fetch, whereas fecthing imports commit to local branches, pushing exports commits to remotes branches. <br> Git Push is given below.</p>
+        <p><b>git push 'remote_name' 'branch_name'</b></p>
+        <p>In this tutorial, we'll be looking at how to <b>GIT PUSH</b> to <b>GitHub</b> with the following steps</p>
+        <ol>
+            <li><b>Creating A New Remote Repository</b></li>
+            <p>The first step in Git Push is by creating a new remote repository on your GitHub account.</p>
+            <img src="work1.png" alt="first_screenshot">
+            <li><b>Creating Your Local Project In Your Desktop</b></li>
+            <p>The next step is by moving to the specific path you want create a file you want to commit to in your desktop i.e. <em>c/users/tunji/</em> and creating a folder by using the <em>mkdir</em> command <b>mkdir learning_gitpush</b> & change the directory using the <em>cd</em> command.</p>
+            <li><b>Initialize  The git Repository</b></li>
+            <p>Use the <em>git init</em> to initialize the repository. It is used to create a new empty repository or directory consisting of files with the hidden directory. <b>.git</b> is created at the top level of your project.</p>
+            <li><b>Add and Commit Files In Your Local Repository</b></li>
+            <p>After initializing the git repository, then You add files by using <b>git add.</b> command line in your bash to add all the files to the given folder & use the <b>git status</b>command in your bash to view all files which are going to be staged to the first commit.<br>
+            Then you can create a commit message by <b>git commit -m 'your message'</b>, which adds the change to the local repository.<br><b>git commit</b>uses <b>'-m'</b> as a flag for a message to set the commits with the content where the full description is included, a message is written in an imperative sentence up to 50 characters long and defining "what has changed" and "why was the change made"</p>
+            <li><b>Copy & Add Your Remote Repository To Your Local Where Your Content From Your Repository is Pushed</b></li>
+            <p>Copy the HTTPS or URL from the given GitHub account which is the place of the remote repository and add the URL to local repository by using <em>git remote add origin 'your_url_name'</em>.</p>
+            <li><b>Push The Code In Your Local Repository to GitHub</b></li>
+            <p>Lastly, you push your local content to GitHub by using <em>git push -u origin master</em>. In the code, the origin is your default repository name and '-u' flag is upstream, which is equivalent to '-set-upstream.' and the master is the branch name.</p>
+            <img src="work2.png" alt="second_screenshot">
+            
+            <p>Finally, after using the the git push command prompt on your <b>Bash</b>, you can now view your local repository on GitHub.</p>      
+        <img src="work3.png">
+        </ol> 
+<p>Thank You for taking the time going through my brief summary.</p>
+</body>
+</html>
